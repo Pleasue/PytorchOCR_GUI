@@ -1,0 +1,10 @@
+numpy==1.18.4
+tqdm==4.46.0
+opencv-python==4.2.0.34
+addict==2.2.1
+pyclipper==1.1.0.post3
+torch>=1.7.0
+torchvision>=0.8.0
+pyqt5
+openpyxl
+

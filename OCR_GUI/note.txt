@@ -1,0 +1,12 @@
+1.创建环境：git clone https://github.com/WenmuZhou/PytorchOCR.git #解压后
+            conda create -n pytorchocr python=3.8
+            conda activate pytorchocr 
+            cd PytorchOCR-master & pip install -r requirements.txt #关闭科学上网
+2.试运行报错：FileNotFoundError: Could not find module 'D:\anaconda3\envs\pytorchocr\Library\bin\geos_c.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+            解决：D:\pythonProject\ocr_graduate\Shapely-1.8.2-cp38-cp38-win_amd64.whl
+                #先卸载已下载下载的shapely
+                pip uninstall shapely
+                #然后下载本地cp38版本的shapely即可
+                pip install D:\PyCharm\Pro\OCR\PaddleOCR\PPOCRLabel\BACK\Shapely-1.7.1-cp38-cp38-win_amd64.whl
+3.安装pyQt:pip install pyqt5
+4.pyQt5由ui生成代买：python -m PyQt5.uic.pyuic -o ui_design.py DEMO_up.ui 
